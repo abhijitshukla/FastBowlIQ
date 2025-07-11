@@ -2,7 +2,7 @@
 
 **FastBowlIQ** is a complete pipeline for analyzing the biomechanics of fast bowlers using 3D SMPL pose estimation, phase labeling, biomechanical metric extraction, and automatic feedback generation using AI.
 
-## 📊 Biomechanical Metrics Analyzed
+## Biomechanical Metrics Analyzed
 
 This project analyzes several key biomechanical parameters critical to fast bowling performance and injury prevention:
 
@@ -27,7 +27,7 @@ It uses Apple’s CoMotion for pose tracking and Google Gemini to generate detai
 
 ---
 
-## 🍏 Apple CoMotion Setup
+## Apple CoMotion Setup
 
 This project relies on [Apple CoMotion](https://github.com/apple/ml-comotion) to extract 3D pose information from a bowling video using the SMPL model.
 
@@ -67,7 +67,7 @@ This project relies on [Apple CoMotion](https://github.com/apple/ml-comotion) to
 
 ---
 
-## 🚀 Execution Pipeline
+## Execution Pipeline
 
 | Step | Script         | Description                                                       | Output                                  |
 |------|----------------|-------------------------------------------------------------------|------------------------------------------|
@@ -80,7 +80,7 @@ This project relies on [Apple CoMotion](https://github.com/apple/ml-comotion) to
 
 ---
 
-## 🧠 Skills & Technologies Used
+## Skills & Technologies Used
 
 | Area                   | Tools / Techniques                         |
 |------------------------|---------------------------------------------|
@@ -94,7 +94,7 @@ This project relies on [Apple CoMotion](https://github.com/apple/ml-comotion) to
 
 ---
 
-## 🔐 Gemini API Setup
+## Gemini API Setup
 
 In `feedback.py`, you must paste your **own Gemini API key** directly here:
 
@@ -104,7 +104,7 @@ API_KEY = "YOUR_API_KEY_HERE"
 
 ---
 
-## ✅ Requirements
+## Requirements
 
 Install Python dependencies with:
 
@@ -116,13 +116,13 @@ pip install -r requirements.txt
 
 ---
 
-## 📚 References & Inspiration
+## References & Inspiration
 
 - [Attractors in Fast Bowling – Steff Jones](https://www.linkedin.com/pulse/attractors-fast-bowling-steff-jones/) — Excellent guide that informed the biomechanical metric selection and interpretation.
 
 ---
 
-## 🙌 Acknowledgements
+## Acknowledgements
 
 - [Apple CoMotion](https://github.com/apple/ml-comotion) — for the SMPL-based tracking framework  
 - [Google Gemini](https://ai.google.dev/) — for enabling intelligent performance feedback  
@@ -130,7 +130,7 @@ pip install -r requirements.txt
 
 ---
 
-## 📎 License
+## License
 
 This project is intended for educational and research use.  
 Apple CoMotion and Gemini API are subject to their respective licenses and terms of use.
