@@ -1,0 +1,11 @@
+# Ignore Python environment and cache
+venv/
+__pycache__/
+
+# Ignore CoMotion and src (assumed to be build or dependency folders)
+comotion/
+src/
+
+# Ignore editor temp files
+tempCodeRunnerFile.py
+
