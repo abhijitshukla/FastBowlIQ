@@ -2,6 +2,27 @@
 
 **FastBowlIQ** is a complete pipeline for analyzing the biomechanics of fast bowlers using 3D SMPL pose estimation, phase labeling, biomechanical metric extraction, and automatic feedback generation using AI.
 
+## 📊 Biomechanical Metrics Analyzed
+
+This project analyzes several key biomechanical parameters critical to fast bowling performance and injury prevention:
+
+| Metric                         | Description                                                                 |
+|-------------------------------|-----------------------------------------------------------------------------|
+| **Back Knee Flexion at BFC**  | Degree of flexion of the back knee at back foot contact (BFC).              |
+| **Stride Length**             | Distance between back foot and front foot at delivery.                      |
+| **Alignment**                 | Bowler’s body alignment (e.g., side-on, front-on) during delivery.          |
+| **Elbow Angle at Release**    | Angle at the elbow joint during ball release to assess legality and stress. |
+| **Hip-Shoulder Separation**   | Rotational difference between hips and shoulders—indicator of power.       |
+| **Front Knee Angle at Release** | Flexion of the front leg knee—contributes to stability and energy transfer. |
+| **Delivery Reach**            | Distance from front foot to wrist at release—used to infer extension.      |
+| **Lateral Flexion**           | Sideways bending of the torso during delivery—linked to back injuries.     |
+
+Each metric is evaluated for:
+- Optimal range
+- Performance impact
+- Injury risk
+- Corrective feedback
+
 It uses Apple’s CoMotion for pose tracking and Google Gemini to generate detailed performance reports.
 
 ---
